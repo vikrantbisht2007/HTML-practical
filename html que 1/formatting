@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formatting Styles</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        a {
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 60%;
+            margin: auto;
+        }   
+    </style>
+</head>
+<body>
+
+    <a href="homepage.html">⬅ Back to Home</a>
+
+    <h1>HTML Formatting Styles</h1>
+
+    <div class="box">
+        <p><b>This is Bold Text</b></p>
+        <p><i>This is Italic Text</i></p>
+        <p><u>This is Underlined Text</u></p>
+        <p><strike>This is Strike Text</strike></p>
+        <p>H<sub>2</sub>O (Subscript)</p>
+        <p>X<sup>2</sup> (Superscript)</p>
+
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </div>
+
+</body>
+</html>
