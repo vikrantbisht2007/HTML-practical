@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monitor Details</title>
+</head>
+<body style="background-color:lightblue; font-family:Arial;">
+
+<h1>Monitor</h1>
+<img src="monitor.jpg" width="300">
+<p>The monitor is an output device...</p>
+
+</body>
+</html>
