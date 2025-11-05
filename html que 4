@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frame Layout</title>
+    <style>
+        table {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 70%;
+        }
+        td, th {
+            border: 2px solid black;
+            padding: 10px;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Frame Layout Example</h2>
+
+<table cellpadding="5" cellspacing="5">
+    <tr>
+
+        <td rowspan="2" width="200">
+            <b>MAIN MENU</b><br><br>
+            Topic 1<br>
+            Topic 2<br>
+            Topic 3<br>
+        </td>
+
+        <td height="80">
+            <b>Explanation</b><br>
+            ------------<br>
+            ------------<br>
+            <br>
+            View Example
+        </td>
+    </tr>
+
+    <tr>
+
+        <td height="60"><b>Example</b></td>
+    </tr>
+</table>
+
+</body>
+</html>
