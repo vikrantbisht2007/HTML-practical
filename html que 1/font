@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Font Styles & Image</title>
+    <style>
+        body {
+            background-color: #e8e8e8;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .box {
+            background: white;
+            padding: 20px;
+            width: 60%;
+            margin: auto;
+            border-radius: 10px;
+        }
+        img {
+            margin-top: 20px;
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="homepage.html">⬅ Back to Home</a>
+
+    <h1>Font Styles & Image Tag</h1>
+
+    <div class="box">
+        <p style="font-family: 'Courier New';">This text uses Courier New font</p>
+        <p style="font-family: 'Times New Roman';">This text uses Times New Roman</p>
+        <p style="font-family: 'Georgia';">This text uses Georgia font</p>
+        <p style="font-family: 'Verdana';">This text uses Verdana font</p>
+        <p style="font-family: 'Arial';">This text uses Arial font</p>
+
+        <h2>Image Example:</h2>
+        <img src="win10.png" alt="Sample Image">
+    </div>
+
+</body>
+</html>
