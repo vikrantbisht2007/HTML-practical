@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Map Example</title>
+</head>
+<body style="background-color:#f0f0f0; font-family:Arial;">
+
+<h1>Computer Parts Image Map</h1>
+
+<img src="bas.png" usemap="#computermap" width="600" height="400">
+
+<map name="computermap">
+
+    <area shape="rect" coords="50,50,300,200" href="monitor.html">
+    <area shape="rect" coords="150,260,420,330" href="keyboard.html">
+    <area shape="circle" coords="520,300,55" href="mouse.html">
+
+</map>
+
+</body>
+</html>
