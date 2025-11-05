@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marquee, Image & Hyperlink</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .box {
+            background: white;
+            padding: 20px;
+            width: 70%;
+            margin: auto;
+            border-radius: 10px;
+            text-align: center;
+        }
+        img {
+            width: 250px;
+            height: auto;
+            margin-top: 15px;
+            border-radius: 10px;
+        }
+        a {
+            font-size: 22px;
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="homepage.html">⬅ Back to Home</a>
+
+    <h1>Marquee, Image & Hyperlink Example</h1>
+
+    <div class="box">
+
+        <marquee behavior="scroll" direction="left" style="font-size: 28px; color: darkgreen;">
+            This is a moving marquee text
+        </marquee>
+
+        <h2>Moving Image Below:</h2>
+        <marquee behavior="alternate" >
+            <img src="win10.png" alt="Moving Image">
+        </marquee>
+
+        <h2>Hyperlink Example:</h2>
+        <marquee behaviour="alternate">
+            <a href="https://www.google.com" target="_blank">Click here to visit Google</a>
+        </marquee>
+
+    </div>
+
+</body>
+</html>
