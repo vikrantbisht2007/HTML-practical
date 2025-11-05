@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nested List Example</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+
+        .top-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 120px;
+        }
+
+
+        .item1 { color: red; font-weight: bold; }
+        .item2 { color: green; font-style: italic; }
+        .item3 { color: blue;}
+
+        ol {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+ 
+    <img src="win10.png" class="top-right" alt="Main Item">
+
+
+    <marquee behavior="scroll" direction="left" style="font-size:30px; color:purple;">
+        Computer Topics - Nested List Example
+    </marquee>
+
+
+    <ol>
+        <li class="item1">
+            Input Devices
+            <ul>
+                <li>Keyboard</li>
+                <li>Mouse</li>
+                <li>Scanner</li>
+            </ul>
+        </li>
+        <hr>
+
+        <li class="item2">
+            Output Devices
+            <ul>
+                <li>Monitor</li>
+                <li>Printer</li>
+                <li>Speakers</li>
+            </ul>
+        </li>
+        <hr>
+
+        <li class="item3">
+            Storage Devices
+            <ul>
+                <li>HDD</li>
+                <li>SSD</li>
+                <li>Pen Drive</li>
+            </ul>
+        </li>
+        <hr>
+    </ol>
+
+</body>
+</html>
