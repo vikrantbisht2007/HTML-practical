@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Tutorial - Home</title>
+    <style>
+        body {
+            background-image: url('img1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+        .links {
+            margin-top: 50px;
+        }
+        a {
+            display: block;
+            margin: 10px 0;
+            font-size: 24px;
+            color: yellow;
+            text-decoration: none;
+        }
+        a:hover {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+
+    <marquee behavior="scroll" direction="left" style="font-size: 30px; margin-top: 30px; color: cyan;">
+     HTML Tutorial
+    </marquee>
+
+    <h1>Home Page</h1>
+
+    <div class="links">
+        <a href="formatting.html">Formatting Styles</a>
+        <a href="font.html">Font Styles</a>
+        <a href="marquee.html">Marquee</a>
+        <a href="other.html">Other tags</a>
+    </div>
+
+</body>
+</html>
