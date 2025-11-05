@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Other HTML Tags</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .box {
+            background: white;
+            padding: 20px;
+            width: 70%;
+            margin: auto;
+            border-radius: 10px;
+        }
+        hr {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="homepage.html">⬅ Back to Home</a>
+
+    <h1>Other HTML Tags: br, hr, p, pre</h1>
+
+    <div class="box">
+
+        <h2> Paragraph Tag</h2>
+        <p>This is a normal paragraph. It starts on a new line and contains text in block format.</p>
+
+        <hr>
+
+        <h2>Line Break Tag</h2>
+        <p>This is line 1.<br>This is line 2 (after br).<br>This is line 3.</p>
+
+        <hr>
+
+        <h2> Horizontal Rule</h2>
+        <p>Below is an hr line:</p>
+        <hr>
+
+        <h2> Preformatted Text</h2>
+        <pre>
+This     text
+  keeps     its
+    spaces     and
+line breaks exactly
+  as you type.
+        </pre>
+
+    </div>
+
+</body>
+</html>
