@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse Details</title>
+</head>
+<body style="background-color:lightpink; font-family:Arial;">
+
+<h1>Mouse</h1>
+<img src="mouse.jpg" width="300">
+<p>The mouse is a pointing device...</p>
+
+</body>
+</html>
